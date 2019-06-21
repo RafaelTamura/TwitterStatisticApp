@@ -1,0 +1,8 @@
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\bin\Release\netstandard2.0\TwitterStatisticApp.Domain.deps.json
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\bin\Release\netstandard2.0\TwitterStatisticApp.Domain.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\bin\Release\netstandard2.0\TwitterStatisticApp.Domain.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\obj\Release\netstandard2.0\TwitterStatisticApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\obj\Release\netstandard2.0\TwitterStatisticApp.Domain.AssemblyInfoInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\obj\Release\netstandard2.0\TwitterStatisticApp.Domain.AssemblyInfo.cs
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\obj\Release\netstandard2.0\TwitterStatisticApp.Domain.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\obj\Release\netstandard2.0\TwitterStatisticApp.Domain.pdb
