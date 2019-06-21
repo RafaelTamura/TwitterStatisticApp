@@ -1,0 +1,22 @@
+<h1>Quantidade de Tweets por Hashtag, Idioma e Localidade</h1>
+
+<p *ngIf="!tweetsPorTag"><em>Loading...</em></p>
+
+<table class='table table-striped' *ngIf="tweetsPorTag">
+  <thead>
+    <tr>
+      <th>Hashtag</th>
+      <th>Quantidade</th>
+      <th>Idioma</th>
+      <th>Localização</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let tweet of tweetsPorTag">
+      <td>{{ tweet.Hashtag }}</td>
+      <td>{{ tweet.Count }}</td>
+      <td>{{ tweet.LanguageName }}</td>
+      <td>{{ tweet.Location }}</td>
+    </tr>
+  </tbody>
+</table>

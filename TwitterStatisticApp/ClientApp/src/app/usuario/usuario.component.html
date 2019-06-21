@@ -1,0 +1,18 @@
+<h1>5 Usuário com mais seguidores</h1>
+
+<p *ngIf="!usuariosMaisSeguidores"><em>Loading...</em></p>
+
+<table class='table table-striped' *ngIf="usuariosMaisSeguidores">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Número Seguidores</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let usuario of usuariosMaisSeguidores">
+      <td>{{ usuario.ScreenName }}</td>
+      <td>{{ usuario.FollowersCount }}</td>
+    </tr>
+  </tbody>
+</table>

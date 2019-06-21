@@ -1,0 +1,20 @@
+<h1>Quantidade de Tweets por Hora</h1>
+
+<p *ngIf="!tweetsPorHora"><em>Loading...</em></p>
+
+<table class='table table-striped' *ngIf="tweetsPorHora">
+  <thead>
+    <tr>
+      <th>Data</th>
+      <th>Hora</th>
+      <th>Quantidade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let tweet of tweetsPorHora">
+      <td>{{ tweet.Date }}</td>
+      <td>{{ tweet.Hour }}</td>
+      <td>{{ tweet.Count }}</td>
+    </tr>
+  </tbody>
+</table>
