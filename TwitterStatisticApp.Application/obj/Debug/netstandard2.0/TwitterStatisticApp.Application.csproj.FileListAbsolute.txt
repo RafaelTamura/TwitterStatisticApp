@@ -1,0 +1,14 @@
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\bin\Debug\netstandard2.0\TwitterStatisticApp.Domain.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\bin\Debug\netstandard2.0\TwitterStatisticApp.Infra.Data.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\obj\Debug\netstandard2.0\TwitterStatisticApp.Application.csprojAssemblyReference.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\obj\Debug\netstandard2.0\TwitterStatisticApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\obj\Debug\netstandard2.0\TwitterStatisticApp.Application.AssemblyInfoInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\obj\Debug\netstandard2.0\TwitterStatisticApp.Application.AssemblyInfo.cs
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\bin\Debug\netstandard2.0\TwitterStatisticApp.Application.deps.json
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\bin\Debug\netstandard2.0\TwitterStatisticApp.Application.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\bin\Debug\netstandard2.0\TwitterStatisticApp.Application.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\bin\Debug\netstandard2.0\TwitterStatisticApp.Infra.Data.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\bin\Debug\netstandard2.0\TwitterStatisticApp.Domain.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\obj\Debug\netstandard2.0\TwitterStatisticApp.Application.csproj.CopyComplete
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\obj\Debug\netstandard2.0\TwitterStatisticApp.Application.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Application\obj\Debug\netstandard2.0\TwitterStatisticApp.Application.pdb
