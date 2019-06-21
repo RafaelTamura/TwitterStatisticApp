@@ -1,0 +1,12 @@
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\bin\Release\netstandard2.0\TwitterStatisticApp.Infra.Data.deps.json
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\bin\Release\netstandard2.0\TwitterStatisticApp.Infra.Data.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\bin\Release\netstandard2.0\TwitterStatisticApp.Infra.Data.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\bin\Release\netstandard2.0\TwitterStatisticApp.Domain.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\bin\Release\netstandard2.0\TwitterStatisticApp.Domain.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\obj\Release\netstandard2.0\TwitterStatisticApp.Infra.Data.csprojAssemblyReference.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\obj\Release\netstandard2.0\TwitterStatisticApp.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\obj\Release\netstandard2.0\TwitterStatisticApp.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\obj\Release\netstandard2.0\TwitterStatisticApp.Infra.Data.AssemblyInfo.cs
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\obj\Release\netstandard2.0\TwitterStatisticApp.Infra.Data.csproj.CopyComplete
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\obj\Release\netstandard2.0\TwitterStatisticApp.Infra.Data.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.Data\obj\Release\netstandard2.0\TwitterStatisticApp.Infra.Data.pdb

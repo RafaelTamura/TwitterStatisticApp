@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  twitter.statistic.app:
+    image: twitter.statistic.app:latest
+    ports:
+     - 5000:80
+    container_name: cont_twitter-app
+    build:
+      context: .
+      dockerfile: TwitterStatisticApp/Dockerfile
+    environment:
+      MongoConnectionString: cont_mongodb
+    depends_on:
+      - mongodb
+    links:
+      - mongodb
+  mongodb:
+    image: mongo
+    ports:
+     - 27017:27017
+    container_name: cont_mongodb
