@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TwitterStatisticApp.Identity.Domain\TwitterStatisticApp.Identity.Domain.csproj" />
+    <ProjectReference Include="..\TwitterStatisticApp.Identity.Infra.CrossCutting\TwitterStatisticApp.Identity.Infra.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>

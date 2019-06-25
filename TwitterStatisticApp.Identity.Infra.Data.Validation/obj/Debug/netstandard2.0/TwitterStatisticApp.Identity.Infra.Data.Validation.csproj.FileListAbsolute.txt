@@ -1,0 +1,12 @@
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Validation.deps.json
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Validation.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Validation.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Validation.csprojAssemblyReference.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Validation.csproj.CoreCompileInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Validation.AssemblyInfoInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Validation.AssemblyInfo.cs
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Validation.csproj.CopyComplete
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Validation.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Validation\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Validation.pdb

@@ -1,0 +1,14 @@
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Mock.deps.json
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Mock.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Mock.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.CrossCutting.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.CrossCutting.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Mock.csprojAssemblyReference.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Mock.csproj.CoreCompileInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Mock.AssemblyInfoInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Mock.AssemblyInfo.cs
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Mock.csproj.CopyComplete
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Mock.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data.Mock\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.Mock.pdb
