@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { TweetTagComponent } from './tweetTag/tweet-tag.component';
 import { TweetHoraComponent } from './tweetHora/tweet-hora.component';
 import { UsuarioComponent } from './usuario/usuario.component';
+import { StorageServiceModule } from 'angular-webstorage-service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { UsuarioComponent } from './usuario/usuario.component';
     HomeComponent,
     UsuarioComponent,
     TweetTagComponent,
-    TweetHoraComponent
+    TweetHoraComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -29,7 +30,8 @@ import { UsuarioComponent } from './usuario/usuario.component';
       { path: 'usuario', component: UsuarioComponent },
       { path: 'tweet-tag', component: TweetTagComponent },
       { path: 'tweet-hora', component: TweetHoraComponent },
-    ])
+    ]),
+    StorageServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]

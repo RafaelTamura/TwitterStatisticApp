@@ -1,5 +1,6 @@
 import { Component, Inject } from '@angular/core';
-import { HttpClient, HttpResponse } from '@angular/common/http';
+import { RequisicaoHttpService } from '../services/requisicao/requisicao-http.service';
+import { HttpResponse } from '@angular/common/http';
 
 @Component({
   selector: 'app-tweet-tag',
@@ -8,13 +9,13 @@ import { HttpClient, HttpResponse } from '@angular/common/http';
 export class TweetTagComponent {
   tweetsPorTag: any;
 
-  constructor(public http: HttpClient, @Inject('BASE_URL') public baseUrl: string) {
+  constructor(private requisicao: RequisicaoHttpService, @Inject('BASE_URL') public baseUrl: string) {
     this.obterTweetsPorTag();
   }
 
   public obterTweetsPorTag() {
-    this.http.get(this.baseUrl + 'api/Twitter/Estatistica/TweetsPorTag').subscribe((res) => {
-      this.tweetsPorTag = res;
+    this.requisicao.onGet(this.baseUrl + 'api/Twitter/Estatistica/TweetsPorTag').subscribe((res: HttpResponse<any>) => {
+      this.tweetsPorTag = res.body;
     });
   }
 }

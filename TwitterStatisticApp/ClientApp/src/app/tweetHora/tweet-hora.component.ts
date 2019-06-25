@@ -1,5 +1,6 @@
 import { Component, Inject } from '@angular/core';
-import { HttpClient, HttpResponse } from '@angular/common/http';
+import { RequisicaoHttpService } from '../services/requisicao/requisicao-http.service';
+import { HttpResponse } from '@angular/common/http';
 
 @Component({
   selector: 'app-tweet-hora',
@@ -8,13 +9,13 @@ import { HttpClient, HttpResponse } from '@angular/common/http';
 export class TweetHoraComponent {
   tweetsPorHora: any;
 
-  constructor(public http: HttpClient, @Inject('BASE_URL') public baseUrl: string) {
+  constructor(private requisicao: RequisicaoHttpService, @Inject('BASE_URL') public baseUrl: string) {
     this.obterTweetsPorHora();
   }
 
   public obterTweetsPorHora() {
-    this.http.get(this.baseUrl + 'api/Twitter/Estatistica/TweetsPorHora').subscribe((res) => {
-      this.tweetsPorHora = res;
+    this.requisicao.onGet(this.baseUrl + 'api/Twitter/Estatistica/TweetsPorHora').subscribe((res: HttpResponse<any>) => {
+      this.tweetsPorHora = res.body;
     });
   }
 }

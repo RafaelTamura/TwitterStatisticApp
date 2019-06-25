@@ -1,5 +1,6 @@
 import { Component, Inject } from '@angular/core';
-import { HttpClient, HttpResponse } from '@angular/common/http';
+import { RequisicaoHttpService } from '../services/requisicao/requisicao-http.service';
+import { HttpResponse } from '@angular/common/http';
 
 @Component({
   selector: 'app-usuario',
@@ -8,13 +9,13 @@ import { HttpClient, HttpResponse } from '@angular/common/http';
 export class UsuarioComponent {
   usuariosMaisSeguidores: any;
 
-  constructor(public http: HttpClient, @Inject('BASE_URL') public baseUrl: string) {
+  constructor(private requisicao: RequisicaoHttpService, @Inject('BASE_URL') public baseUrl: string) {
     this.obterUsuariosMaisSeguidores();
   }
 
   private obterUsuariosMaisSeguidores() {
-    this.http.get(this.baseUrl + 'api/Twitter/Estatistica/UsuariosMaisSeguidores').subscribe((res) => {
-      this.usuariosMaisSeguidores = res;
+    this.requisicao.onGet(this.baseUrl + 'api/Twitter/Estatistica/UsuariosMaisSeguidores').subscribe((res: HttpResponse<any>) => {
+      this.usuariosMaisSeguidores = res.body;
     });
   }
 }
