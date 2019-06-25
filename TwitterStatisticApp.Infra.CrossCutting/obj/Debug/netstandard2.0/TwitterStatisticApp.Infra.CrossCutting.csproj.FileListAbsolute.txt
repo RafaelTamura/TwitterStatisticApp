@@ -1,0 +1,9 @@
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.CrossCutting\bin\Debug\netstandard2.0\TwitterStatisticApp.Infra.CrossCutting.deps.json
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.CrossCutting\bin\Debug\netstandard2.0\TwitterStatisticApp.Infra.CrossCutting.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.CrossCutting\obj\Debug\netstandard2.0\TwitterStatisticApp.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.CrossCutting\obj\Debug\netstandard2.0\TwitterStatisticApp.Infra.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.CrossCutting\obj\Debug\netstandard2.0\TwitterStatisticApp.Infra.CrossCutting.AssemblyInfo.cs
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.CrossCutting\obj\Debug\netstandard2.0\TwitterStatisticApp.Infra.CrossCutting.csprojAssemblyReference.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.CrossCutting\bin\Debug\netstandard2.0\TwitterStatisticApp.Infra.CrossCutting.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.CrossCutting\obj\Debug\netstandard2.0\TwitterStatisticApp.Infra.CrossCutting.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Infra.CrossCutting\obj\Debug\netstandard2.0\TwitterStatisticApp.Infra.CrossCutting.pdb

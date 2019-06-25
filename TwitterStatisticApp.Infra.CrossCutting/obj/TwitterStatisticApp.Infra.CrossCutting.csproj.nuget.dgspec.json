@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Infra.CrossCutting\\TwitterStatisticApp.Infra.CrossCutting.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Infra.CrossCutting\\TwitterStatisticApp.Infra.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Infra.CrossCutting\\TwitterStatisticApp.Infra.CrossCutting.csproj",
+        "projectName": "TwitterStatisticApp.Infra.CrossCutting",
+        "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Infra.CrossCutting\\TwitterStatisticApp.Infra.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\fgb148\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Infra.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fgb148\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[3.10.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

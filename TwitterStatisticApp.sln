@@ -17,6 +17,24 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterStatisticApp.Domain"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitterStatisticApp.Infra.Data", "TwitterStatisticApp.Infra.Data\TwitterStatisticApp.Infra.Data.csproj", "{DDEA3438-5380-4AAF-AFCE-36CD5125083C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterStatisticApp.Identity", "TwitterStatisticApp.Identity\TwitterStatisticApp.Identity.csproj", "{643A0193-896A-4172-B638-449403F59BEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterStatisticApp.Identity.Infra.Data.Validation", "TwitterStatisticApp.Identity.Infra.Data.Validation\TwitterStatisticApp.Identity.Infra.Data.Validation.csproj", "{4C11ADCF-7966-4DB7-A30F-AD8609638A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterStatisticApp.Identity.Domain", "TwitterStatisticApp.Identity.Domain\TwitterStatisticApp.Identity.Domain.csproj", "{67961F3B-4913-4A06-A495-E6ACA1045E5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterStatisticApp.Identity.Infra.Data", "TwitterStatisticApp.Identity.Infra.Data\TwitterStatisticApp.Identity.Infra.Data.csproj", "{6B547BE6-0CBE-496F-9150-843B8D76B718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{DD462165-E576-4E30-8AB3-A816FD47452D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{9764E3F4-3D29-4885-881D-D89084B42B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterStatisticApp.Identity.Infra.CrossCutting", "TwitterStatisticApp.Identity.Infra.CrossCutting\TwitterStatisticApp.Identity.Infra.CrossCutting.csproj", "{318FBC07-0E5B-4F11-8B59-B42BE5222530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterStatisticApp.Identity.Infra.Data.Mock", "TwitterStatisticApp.Identity.Infra.Data.Mock\TwitterStatisticApp.Identity.Infra.Data.Mock.csproj", "{4EB21A36-9C6D-470B-ABE5-004EF6E92AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterStatisticApp.Infra.CrossCutting", "TwitterStatisticApp.Infra.CrossCutting\TwitterStatisticApp.Infra.CrossCutting.csproj", "{18B0A22C-918A-4AAB-A373-E6B07881837C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,9 +57,50 @@ Global
 		{DDEA3438-5380-4AAF-AFCE-36CD5125083C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDEA3438-5380-4AAF-AFCE-36CD5125083C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDEA3438-5380-4AAF-AFCE-36CD5125083C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643A0193-896A-4172-B638-449403F59BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643A0193-896A-4172-B638-449403F59BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643A0193-896A-4172-B638-449403F59BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643A0193-896A-4172-B638-449403F59BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C11ADCF-7966-4DB7-A30F-AD8609638A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C11ADCF-7966-4DB7-A30F-AD8609638A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C11ADCF-7966-4DB7-A30F-AD8609638A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C11ADCF-7966-4DB7-A30F-AD8609638A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67961F3B-4913-4A06-A495-E6ACA1045E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67961F3B-4913-4A06-A495-E6ACA1045E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67961F3B-4913-4A06-A495-E6ACA1045E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67961F3B-4913-4A06-A495-E6ACA1045E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B547BE6-0CBE-496F-9150-843B8D76B718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B547BE6-0CBE-496F-9150-843B8D76B718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B547BE6-0CBE-496F-9150-843B8D76B718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B547BE6-0CBE-496F-9150-843B8D76B718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318FBC07-0E5B-4F11-8B59-B42BE5222530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318FBC07-0E5B-4F11-8B59-B42BE5222530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318FBC07-0E5B-4F11-8B59-B42BE5222530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318FBC07-0E5B-4F11-8B59-B42BE5222530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB21A36-9C6D-470B-ABE5-004EF6E92AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB21A36-9C6D-470B-ABE5-004EF6E92AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB21A36-9C6D-470B-ABE5-004EF6E92AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB21A36-9C6D-470B-ABE5-004EF6E92AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B0A22C-918A-4AAB-A373-E6B07881837C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B0A22C-918A-4AAB-A373-E6B07881837C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B0A22C-918A-4AAB-A373-E6B07881837C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B0A22C-918A-4AAB-A373-E6B07881837C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77358CDE-C0C1-4061-B5E7-2621971C5EDA} = {DD462165-E576-4E30-8AB3-A816FD47452D}
+		{FBD17FF9-E12C-4C3B-AB91-7ACC9CDBFFA1} = {DD462165-E576-4E30-8AB3-A816FD47452D}
+		{39C32FBC-C3BF-4013-9E8D-9B806A52D2FB} = {DD462165-E576-4E30-8AB3-A816FD47452D}
+		{DDEA3438-5380-4AAF-AFCE-36CD5125083C} = {DD462165-E576-4E30-8AB3-A816FD47452D}
+		{643A0193-896A-4172-B638-449403F59BEC} = {9764E3F4-3D29-4885-881D-D89084B42B94}
+		{4C11ADCF-7966-4DB7-A30F-AD8609638A4C} = {9764E3F4-3D29-4885-881D-D89084B42B94}
+		{67961F3B-4913-4A06-A495-E6ACA1045E5B} = {9764E3F4-3D29-4885-881D-D89084B42B94}
+		{6B547BE6-0CBE-496F-9150-843B8D76B718} = {9764E3F4-3D29-4885-881D-D89084B42B94}
+		{318FBC07-0E5B-4F11-8B59-B42BE5222530} = {9764E3F4-3D29-4885-881D-D89084B42B94}
+		{4EB21A36-9C6D-470B-ABE5-004EF6E92AF7} = {9764E3F4-3D29-4885-881D-D89084B42B94}
+		{18B0A22C-918A-4AAB-A373-E6B07881837C} = {DD462165-E576-4E30-8AB3-A816FD47452D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E535E659-FE5F-4F3B-8D1B-477E4090E86B}

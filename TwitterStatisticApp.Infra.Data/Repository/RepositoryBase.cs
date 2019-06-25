@@ -3,7 +3,6 @@ using MongoDB.Driver;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
 using TwitterStatisticApp.Infra.Data.Context;
 

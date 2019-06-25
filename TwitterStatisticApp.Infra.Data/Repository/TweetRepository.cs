@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using TwitterStatisticApp.Domain.Entities;
-using TwitterStatisticApp.Infra.Data.Repository.Interface;
+using TwitterStatisticApp.Domain.Interfaces;
 
 namespace TwitterStatisticApp.Infra.Data.Repository
 {

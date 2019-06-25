@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.Linq;
 using TwitterStatisticApp.Domain.Entities;
-using TwitterStatisticApp.Infra.Data.Repository.Interface;
+using TwitterStatisticApp.Domain.Interfaces;
 
 namespace TwitterStatisticApp.Infra.Data.Repository
 {
@@ -13,7 +13,7 @@ namespace TwitterStatisticApp.Infra.Data.Repository
         public User GetById(string id)
         {
             var user = this.Find(q => q.IdStr == id);
-            return user != null ? user.ToList().FirstOrDefault() : null;
+            return user != null ? user.FirstOrDefault() : null;
         }
 
         public void RemoveAll()
