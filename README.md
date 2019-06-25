@@ -1,11 +1,18 @@
 # TwitterStatisticApp
 
+Configurações:
+- Front-end: Angular 6
+- Node: 6.4.1
+- .NET Core 2.2
+- MongoDB
+- IdentityServer4
+
 Processo para executar o projeto:
 1) Realizar o download e instalação do Node 6.4.1
 
 2) Ir até a pasta TwitterStatisticApp\ClientApp
 
-3) Instalar os pacotes do node no projeto pelo comando, via PowerShell: npm install
+3) Instalar os pacotes NPMs no projeto pelo comando, via PowerShell: npm install
 
 4) Instalar o MongoDB via Docker pelo comando:
    docker run -d -p 27017:27017 mongo
