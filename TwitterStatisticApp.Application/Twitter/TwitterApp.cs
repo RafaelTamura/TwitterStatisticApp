@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -15,7 +14,7 @@ using System.Web;
 using TwitterStatisticApp.Application.DTO;
 using TwitterStatisticApp.Application.Twitter.Interface;
 using TwitterStatisticApp.Domain.Entities;
-using TwitterStatisticApp.Infra.Data.Repository.Interface;
+using TwitterStatisticApp.Domain.Interfaces;
 
 namespace TwitterStatisticApp.Application.Twitter
 {

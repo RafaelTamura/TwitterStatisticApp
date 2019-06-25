@@ -6,3 +6,4 @@ C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\o
 C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\obj\Debug\netstandard2.0\TwitterStatisticApp.Domain.AssemblyInfo.cs
 C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\obj\Debug\netstandard2.0\TwitterStatisticApp.Domain.dll
 C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\obj\Debug\netstandard2.0\TwitterStatisticApp.Domain.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Domain\obj\Debug\netstandard2.0\TwitterStatisticApp.Domain.csprojAssemblyReference.cache
