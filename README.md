@@ -7,6 +7,7 @@ Configurações:
 - MongoDB
 - IdentityServer4
 
+
 Processo para executar o projeto:
 1) Realizar o download e instalação do Node 6.4.1
 
