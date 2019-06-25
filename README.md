@@ -19,12 +19,16 @@ API
 
 6) Ir até a pasta TwitterStatisticApp/TwitterStatisticApp.Identity
 
-7) Executar o comando para execução da aplicação:
+7) Executar o comando para execução da aplicação, via PowerShell:
+
 dotnet publish
+
 dotnet run
 
 8) Ir até a pasta TwitterStatisticApp/TwitterStatisticApp
 
-9) Executar o comando para execução da aplicação:
+9) Executar o comando para execução da aplicação, via PowerShell:
+
 dotnet publish
+
 dotnet run
