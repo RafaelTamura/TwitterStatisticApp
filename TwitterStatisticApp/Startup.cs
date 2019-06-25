@@ -9,8 +9,10 @@ using Swashbuckle.AspNetCore.Swagger;
 using System;
 using TwitterStatisticApp.Application.Twitter;
 using TwitterStatisticApp.Application.Twitter.Interface;
+using TwitterStatisticApp.Domain.Interfaces;
+using TwitterStatisticApp.Infra.CrossCutting.Identity;
+using TwitterStatisticApp.Infra.CrossCutting.Identity.Interface;
 using TwitterStatisticApp.Infra.Data.Repository;
-using TwitterStatisticApp.Infra.Data.Repository.Interface;
 
 namespace TwitterStatisticApp
 {
@@ -50,6 +52,16 @@ namespace TwitterStatisticApp
                 });
             #endregion
 
+            #region Authentication Service
+            services.AddAuthentication("Bearer")
+                        .AddIdentityServerAuthentication(options =>
+                        {
+                            options.Authority = string.Format("{0}{1}", Configuration["IdentidadeServerPrefix"], Configuration["IdentidadeServer"]);
+                            options.RequireHttpsMetadata = false;
+                            options.ApiName = Configuration["IdentityServer:ScopeApi"];
+                        });
+            #endregion
+
             #region MVC Configuration
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2); 
             #endregion
@@ -62,6 +74,7 @@ namespace TwitterStatisticApp
             services.AddSingleton<IUserRepository, UserRepository>();
             services.AddSingleton<ITweetsByHourRepository, TweetsByHourRepository>();
             services.AddSingleton<ITweetsByTagRepository, TweetsByTagRepository>();
+            services.AddSingleton<IIdentityUtils, IdentityUtils>();
             #endregion
 
             #region Spa Angular Configuration
@@ -113,8 +126,26 @@ namespace TwitterStatisticApp
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
+            #region Authentication Activation
+            app.UseAuthentication();
+            #endregion
+
             #region Cors
             app.UseCors("AllowAll");
+            #endregion
+
+            #region Swagger
+            app.UseSwagger(c =>
+            {
+                c.RouteTemplate = "swagger/{documentName}/swagger.json";
+            });
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1.000/swagger.json",
+                    "Serviços do Sistema");
+                c.RoutePrefix = "swagger";
+            });
             #endregion
 
             #region MVC Routes
@@ -138,17 +169,7 @@ namespace TwitterStatisticApp
                     {
                         spa.UseAngularCliServer(npmScript: "start");
                     }
-                }); 
-            #endregion
-
-            #region Swagger
-            app.UseSwagger();
-
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1.000/swagger.json",
-                    "Serviços do Sistema");
-            }); 
+                });
             #endregion
         }
     }

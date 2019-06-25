@@ -1,4 +1,5 @@
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ using TwitterStatisticApp.ViewModels;
 namespace TwitterStatisticApp.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     public class TwitterController : Controller
     {
         private readonly ITwitterApp _twitterApp;
