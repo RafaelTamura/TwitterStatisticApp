@@ -1,0 +1,384 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity\\TwitterStatisticApp.Identity.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Domain\\TwitterStatisticApp.Identity.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Domain\\TwitterStatisticApp.Identity.Domain.csproj",
+        "projectName": "TwitterStatisticApp.Identity.Domain",
+        "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Domain\\TwitterStatisticApp.Identity.Domain.csproj",
+        "packagesPath": "C:\\Users\\fgb148\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fgb148\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.CrossCutting\\TwitterStatisticApp.Identity.Infra.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.CrossCutting\\TwitterStatisticApp.Identity.Infra.CrossCutting.csproj",
+        "projectName": "TwitterStatisticApp.Identity.Infra.CrossCutting",
+        "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.CrossCutting\\TwitterStatisticApp.Identity.Infra.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\fgb148\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fgb148\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Mock\\TwitterStatisticApp.Identity.Infra.Data.Mock.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Mock\\TwitterStatisticApp.Identity.Infra.Data.Mock.csproj",
+        "projectName": "TwitterStatisticApp.Identity.Infra.Data.Mock",
+        "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Mock\\TwitterStatisticApp.Identity.Infra.Data.Mock.csproj",
+        "packagesPath": "C:\\Users\\fgb148\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Mock\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fgb148\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Domain\\TwitterStatisticApp.Identity.Domain.csproj": {
+                "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Domain\\TwitterStatisticApp.Identity.Domain.csproj"
+              },
+              "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.CrossCutting\\TwitterStatisticApp.Identity.Infra.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.CrossCutting\\TwitterStatisticApp.Identity.Infra.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Validation\\TwitterStatisticApp.Identity.Infra.Data.Validation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Validation\\TwitterStatisticApp.Identity.Infra.Data.Validation.csproj",
+        "projectName": "TwitterStatisticApp.Identity.Infra.Data.Validation",
+        "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Validation\\TwitterStatisticApp.Identity.Infra.Data.Validation.csproj",
+        "packagesPath": "C:\\Users\\fgb148\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Validation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fgb148\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Domain\\TwitterStatisticApp.Identity.Domain.csproj": {
+                "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Domain\\TwitterStatisticApp.Identity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data\\TwitterStatisticApp.Identity.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data\\TwitterStatisticApp.Identity.Infra.Data.csproj",
+        "projectName": "TwitterStatisticApp.Identity.Infra.Data",
+        "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data\\TwitterStatisticApp.Identity.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\fgb148\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fgb148\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Domain\\TwitterStatisticApp.Identity.Domain.csproj": {
+                "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Domain\\TwitterStatisticApp.Identity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.8.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity\\TwitterStatisticApp.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity\\TwitterStatisticApp.Identity.csproj",
+        "projectName": "TwitterStatisticApp.Identity",
+        "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity\\TwitterStatisticApp.Identity.csproj",
+        "packagesPath": "C:\\Users\\fgb148\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fgb148\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Mock\\TwitterStatisticApp.Identity.Infra.Data.Mock.csproj": {
+                "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Mock\\TwitterStatisticApp.Identity.Infra.Data.Mock.csproj"
+              },
+              "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Validation\\TwitterStatisticApp.Identity.Infra.Data.Validation.csproj": {
+                "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data.Validation\\TwitterStatisticApp.Identity.Infra.Data.Validation.csproj"
+              },
+              "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data\\TwitterStatisticApp.Identity.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\fgb148\\Documents\\Teste\\TwitterStatisticApp\\TwitterStatisticApp.Identity.Infra.Data\\TwitterStatisticApp.Identity.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

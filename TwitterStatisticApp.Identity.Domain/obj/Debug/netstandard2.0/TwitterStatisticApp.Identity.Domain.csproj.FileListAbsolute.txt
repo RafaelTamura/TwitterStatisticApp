@@ -1,0 +1,9 @@
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Domain\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.deps.json
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Domain\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Domain\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.csprojAssemblyReference.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Domain\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Domain\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.AssemblyInfoInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Domain\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.AssemblyInfo.cs
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Domain\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Domain\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Domain\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.pdb

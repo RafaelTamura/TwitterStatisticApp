@@ -1,0 +1,12 @@
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.deps.json
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.AssemblyInfo.cs
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.csprojAssemblyReference.cache
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\bin\Debug\netstandard2.0\TwitterStatisticApp.Identity.Domain.pdb
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.csproj.CopyComplete
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.dll
+C:\Users\fgb148\Documents\Teste\TwitterStatisticApp\TwitterStatisticApp.Identity.Infra.Data\obj\Debug\netstandard2.0\TwitterStatisticApp.Identity.Infra.Data.pdb
