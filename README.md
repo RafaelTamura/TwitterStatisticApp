@@ -8,7 +8,7 @@ Processo para executar o projeto:
 3) Instalar os pacotes do node no projeto pelo comando, via PowerShell: npm install
 
 4) Instalar o MongoDB via Docker pelo comando:
-   docker run -d -p 27017:27917 mongo
+   docker run -d -p 27017:27017 mongo
    
    ou
    
@@ -19,16 +19,16 @@ API
 
 6) Ir até a pasta TwitterStatisticApp/TwitterStatisticApp.Identity
 
-7) Executar o comando para execução da aplicação, via PowerShell:
+7) Executar os comandos para execução da aplicação de autenticação, via PowerShell:
 
-dotnet publish
+- dotnet publish
 
-dotnet run
+- dotnet run
 
 8) Ir até a pasta TwitterStatisticApp/TwitterStatisticApp
 
-9) Executar o comando para execução da aplicação, via PowerShell:
+9) Executar os comandos para execução da aplicação do Twitter Statistic App, via PowerShell:
 
-dotnet publish
+- dotnet publish
 
-dotnet run
+- dotnet run
